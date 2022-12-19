@@ -5,65 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
-  <body>
+  <body class="site-body">
     <!--Header-->
     <header class="topline">
-      <a class="logo" href="./index.html"
-        ><span>WEB</span><span>STUDIO</span></a
-      >
+      <a class="logo link" href="./index.html">
+        <span class="web">WEB</span>
+        <span class="studio">STUDIO</span>
+        </a>
       <!--Menu Nav-->
       <nav>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="navigation list">
+          <li class="header-nav"><a class="studio-nav link" href="./index.html">Studio</a></li>
+          <li class="header-nav"><a class="portfolio-nav link" href="./portfolio.html">Portfolio</a></li>
+          <li class="header-nav"><a class="contact-nav link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+      <address class="contact-link">
+        <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
       </address>
     </header>
 
     <!--Main-->
     <main>
       <section class="mainheadder">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button type="button"><span class="textbutton">Order Service</span></button>
       </section>
 
       <!--Section1-->
       <section class="about">
-        <h2 class="invisible">Main Kontent With Sections</h2>
+        <h2 hidden class="section-two">Main Kontent With Sections</h2>
         <!--заховати стилями-->
-        <ul>
+        <ul class="abouthead list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="hhead">Strategy</h3>
+            <p class="phead">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="hhead">Punctuality</h3>
+            <p class="phead">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="hhead">Diligence</h3>
+            <p class="phead">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="hhead">Technologies</h3>
+            <p class="phead">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -72,29 +77,28 @@
       </section>
 
       <!--Section2-->
-      <section class="ourwork">
-        <h2>What are we doing</h2>
-        <ul>
+      <section class="our-work">
+        <h2 class="title-two">What are we doing</h2>
+        <ul class="img-wedoing list">
           <!--img1-->
-          <li>
-            <img
-              class="img-wedoing"
+          <li >
+            <img 
               src="img/img1.jpg"
               alt="коп'ютер зі статистикою"
             >
           </li>
         <!--img2-->
-        <li>
+        <li >
           <img
-            class="img-wedoing"
+            
             src="img/img2.jpg"
             alt="мобільний функціонал продукту"
           >
         </li>
         <!--img3-->
-        <li>
+        <li >
           <img
-            class="img-wedoing"
+            
             src="img/img3.jpg"
             alt="мобільний дизайн додатка"
           >
@@ -104,47 +108,48 @@
 
       <!--Section3-->
       <section class="team">
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="title-three">Our Team</h2>
+        <p class="backround-mark">TeamCard</p>
+        <p class="backround-tom"></p>
+        <p class="backround-camila"></p>
+        <p class="backround-daniel"></p>
+        <ul  class="img-team list">
           <!--Mark-->
-          <li>
+          <li >
             <img
-              class="img-team"
               src="img/MarkGuerrero.jpg"
               alt="альтернативний текст"
             >
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="title-team">Mark Guerrero</h3>
+            <p class="text-team">Product Designer</p>
           </li>
+          
           <!--Tom-->
-          <li>
+          <li >
             <img
-              class="img-team"
               src="img/TomFord.jpg"
               alt="альтернативний текст"
             >
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="title-team">Tom Ford</h3>
+            <p class="text-team">Frontend Developer</p>
           </li>
           <!--Camila-->
-          <li>
+          <li >
             <img
-              class="img-team"
               src="img/CamilaGarcia.jpg"
               alt="альтернативний текст"
             >
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="title-team">Camila Garcia</h3>
+            <p class="text-team">Marketing</p>
           </li>
           <!--Daniel-->
-          <li>
+          <li >
             <img
-              class="img-team"
               src="img/DanielWilson.jpg"
               alt="альтернативний текст"
             >
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="title-team">Daniel Wilson</h3>
+            <p class="text-team">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -152,8 +157,8 @@
 
     <!--Footer-->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span>WEB</span><span>STUDIO</span></a
+      <a class="logo-footer link" href="./index.html"
+        ><span class="web-footer">WEB</span><span class="studio-footer">STUDIO</span></a
       >
       <p class="footertext">
         Increase the flow of customers and sales for your business with digital
