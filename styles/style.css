@@ -179,6 +179,9 @@ color: #FFFFFF;
 }
 
 .main-page-button{
+    font-family: 'Roboto';
+    font-style: normal;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -338,73 +341,13 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.backround-mark{
-    left: 155px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 320px;
-    top: 330px;
+.backround-card-mainpage{
 
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.backround-tom{
-    left: 452px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 320px;
-    top: 330px;
-
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-}
-
-.backround-camila{
-    left: 748px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 320px;
-    top: 330px;
-
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-}
-
-.backround-daniel{
-    left: 1044px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 320px;
-    top: 330px;
-
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-}
 
 /*--------------Footer--------*/
 footer{
