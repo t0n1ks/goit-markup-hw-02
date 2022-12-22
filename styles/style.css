@@ -1,34 +1,12 @@
 body{
     font-family: 'Roboto', normal;
-    font-family: 'Raleway', normal;
-
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    outline: none;
-
-    font-style: normal;
-    position: relative;
-
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.27;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
     background: #FFFFFF;
+    overflow-x: hidden;
 }
 
 /*---------Header-Topline--------------*/
-.site-body {
-    display: flex;
-    margin: 0 auto;
-}
+
+
 
 .list{
     list-style: none;
@@ -40,8 +18,9 @@ text-decoration: none;
 
 /*-----SHABLON-TOP-LINE-------*/
 .topline {
+
 position: absolute;
-width: 1540px;
+width: 100%;
 height: 72px;
 left: 0px;
 top: 0px;
@@ -83,6 +62,7 @@ top: 24px;
 
 
 .navigation{
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -96,21 +76,29 @@ top: 24px;
 }
 
 .header-nav{ 
-    flex: none;
-    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+
+    
+    letter-spacing: 0.02em;
+
 
 }
 
 .studio-nav{
 
     color: #2E2F42;
-    
 }
 
 .portfolio-nav{
-
     color: #2E2F42;
-    
 }
 
 .contact-nav{
@@ -118,7 +106,6 @@ top: 24px;
 }
 
 .contact-link{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -155,7 +142,7 @@ color: #434455;
 /*-------MAIN BLACK BOX--------*/
 .mainheadder{
 position: absolute;
-width: 1540px;
+width: 100%;
 height: 603px;
 left: 0px;
 top: 72px;
@@ -219,37 +206,33 @@ color: none;
 }
 
 .abouthead {
+    justify-content: center;
     display: flex;
-   
     align-items: flex-start;
-    padding: 0px;
     gap: 8px;
-    
-    position: absolute;
-
-    left: 156px;
+    position: absolute;   
     top: 795px;
+    left: 16px;
+}
+
+.about-content{
+margin: 25px;
 }
 
 .hhead{
-
     color: #2E2F42;
-
 }
 
 .phead{
-    flex-direction: column;
     width: 264px;
-height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-
-letter-spacing: 0.02em;
-color: #434455;
+    letter-spacing: 0.02em;
+    color: #434455;
 
 }
 
@@ -266,8 +249,7 @@ color: #434455;
 
 flex: content;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 600;
 font-size: 36px;
 text-align: center;
@@ -289,35 +271,37 @@ top: 150px;
 .team{
     
     position: absolute;
-    width: 1640px;
+    width: 100%;
     height: 732px;
-    left: 0px;
-    top: 1600px;
+    left: 151.5px;
+    top: 1569px;
+    
+    /* CLOUD */
+    
     background: #F4F4FD;
 }
 
 .title-three{
-position: absolute;
-left: 639px;
-top: 130px;
+    position: absolute;
+    left: 500px;
+    top: 130px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 1.11;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2E2F42;
 
-color: #2E2F42;
 }
 
 .img-team{
     display: flex;
-    gap: 32px;
-    
+    gap: 32px;    
     position: absolute;
-    margin-left:-484px;
-    left: 600px;
-    top: 290px;  
+    padding: 0px 5px 32px;
+    top: 290px; 
+    justify-content: center;
+    align-items: center;
+
 }
 
 .title-team{
@@ -360,15 +344,18 @@ background: #2E2F42;
 }
 
 .logo-footer{
-display: flex;
-align-items: flex-start;
-padding: 0px;
-position: absolute;
-left: 156px;
-top: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    left: 156px;
+    top: 100px;
 }
 
 .web-footer{
+    
 font-weight: 800;
 font-size: 18px;
 line-height: 1.6;
@@ -486,6 +473,7 @@ color: #2E2F42;
 }
 
 .portfolio-text{
+    margin-top: -10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
