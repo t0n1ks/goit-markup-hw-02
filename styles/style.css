@@ -1,7 +1,15 @@
 body{
     font-family: 'Roboto', normal;
     background: #FFFFFF;
-    overflow-x: hidden;
+    color: #2E2F42;
+    color: #4D5AE5;
+    color: #434455;
+    line-height: 1.33;
+    line-height: 1.5;
+    line-height: 1.6;
+
+
+
 }
 
 /*---------Header-Topline--------------*/
@@ -13,29 +21,24 @@ body{
 }
 
 .link{
-text-decoration: none;
+    text-decoration: none;
 }
 
 /*-----SHABLON-TOP-LINE-------*/
 .topline {
-
-position: absolute;
-width: 100%;
-height: 72px;
-left: 0px;
-top: 0px;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px
+    rgba(46, 47, 66, 0.08), 0px 1px 1px
+    rgba(46, 47, 66, 0.16), 0px 1px 6px 
+    rgba(46, 47, 66, 0.08);
 }
 .logo {
-    
+ 
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 
-position: absolute;
-left: 156px;
-top: 24px;
+
 }
 
 /*-----SHABLON-LOGO-------*/
@@ -51,6 +54,7 @@ top: 24px;
 }
 
 .studio { 
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -68,20 +72,13 @@ top: 24px;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    position: absolute;
-    left: 348px;
-    top: 9.5px;
+ 
     
     
 }
 
 .header-nav{ 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -93,16 +90,25 @@ top: 24px;
 }
 
 .studio-nav{
-
+ 
+    font-size: 16px;
+    line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-nav{
+    font-size: 16px;
+    line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .contact-nav{
+    font-size: 16px;
+    line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .contact-link{
@@ -120,17 +126,13 @@ top: 24px;
 }
 
 .header-mail{
-position: absolute;
-left: 940px;
-top: 24px;
+
 color: #434455;
 
 }
 
 .header-tel{
-    position: absolute;
-    left: 1133px;
-    top: 24px;
+
     color: #434455;
 }
 
@@ -140,22 +142,15 @@ color: #434455;
 }
 
 /*-------MAIN BLACK BOX--------*/
+
 .mainheadder{
-position: absolute;
-width: 100%;
-height: 603px;
-left: 0px;
-top: 72px;
+    text-align: center;
 background: #2E2F42;
 }
 
 .title{
-position: absolute;
-width: 492px;
-height: 120px;
-left: 474px;
-top: 150px;
-font-family: 'Roboto';
+
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 56px;
@@ -165,34 +160,25 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-.main-page-button{
-    font-family: 'Roboto';
+.textbutton{
+    
+    font-family: inherit;
     font-style: normal;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
-
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-
-    position: absolute;
-    left: 635px;
-    top: 395px;
     color:#4D5AE5;
     background: #F4F4FD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:none;
-    cursor: pointer;
+    cursor: pointer; 
+
 }
 
 
-.main-page-button:hover,
-.main-page-button:focus,
+
 .textbutton:hover,
 .textbutton:focus{
     color: #FFFFFF;
@@ -202,7 +188,7 @@ color: #FFFFFF;
 
 /*--------------Section1--------*/
 .about{
-color: none;
+
 }
 
 .abouthead {
@@ -210,13 +196,11 @@ color: none;
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    position: absolute;   
-    top: 795px;
-    left: 16px;
+
 }
 
 .about-content{
-margin: 25px;
+
 }
 
 .hhead{
@@ -238,16 +222,10 @@ margin: 25px;
 
 /*--------------Section2--------*/
 .our-work{
-    position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1019px;
+
 }
 
 .title-two{
-
-flex: content;
 
 
 font-weight: 600;
@@ -260,32 +238,23 @@ color: #2E2F42;
 }
 
 .img-wedoing{
+    justify-content: center;
+    align-items: center;
 gap: 30px;
 display: flex;
 padding: 0px;
-position: absolute;
-top: 150px;
+
 }
 
 /*--------------Section3--------*/
 .team{
     
-    position: absolute;
-    width: 100%;
-    height: 732px;
-    left: 151.5px;
-    top: 1569px;
-    
-    /* CLOUD */
-    
     background: #F4F4FD;
 }
 
 .title-three{
-    position: absolute;
-    left: 500px;
-    top: 130px;
-
+   
+    text-align: center;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -296,9 +265,8 @@ top: 150px;
 .img-team{
     display: flex;
     gap: 32px;    
-    position: absolute;
     padding: 0px 5px 32px;
-    top: 290px; 
+
     justify-content: center;
     align-items: center;
 
@@ -328,18 +296,17 @@ color: #434455;
 .backround-card-mainpage{
 
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px 
+    rgba(46, 47, 66, 0.08), 0px 1px 1px 
+    rgba(46, 47, 66, 0.16), 0px 2px 1px 
+    rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 
 /*--------------Footer--------*/
 footer{
-position: absolute;
-width: 1540px;
-height: 310px;
-left: 0px;
-top: 2425px;
+
 background: #2E2F42;
 }
 
@@ -349,9 +316,7 @@ background: #2E2F42;
     display: flex;
     align-items: flex-start;
     padding: 0px;
-    position: absolute;
-    left: 156px;
-    top: 100px;
+  
 }
 
 .web-footer{
@@ -370,11 +335,8 @@ color: #F4F4FD;
 
 }
 .footertext{
-    position: absolute;
 width: 264px;
-height: 72px;
-left: 156px;
-top: 120px;
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -395,7 +357,10 @@ padding-left: 23%;
 
 .button-filters{
     margin-left: 15px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px 
+    rgba(0, 0, 0, 0.1), 0px 2px 1px 
+    rgba(0, 0, 0, 0.08), 0px 2px 2px 
+    rgba(0, 0, 0, 0.12);
 border-radius: 4px
 }
 
@@ -404,7 +369,7 @@ border-radius: 4px
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 color: #4D5AE5;
 }
 .button-filters,
@@ -434,11 +399,7 @@ color: #4D5AE5;
 /*-------MAIN CONTENT PORTFOLIO--------*/
 
 .portfolio-content{
-    position: absolute;
-    width: 1128px;
-    height: 420px;
-    left: 156px;
-    top: 288px;
+
     display: flex;
     flex-wrap:wrap;
     gap: 70px 20px;
@@ -446,12 +407,7 @@ color: #4D5AE5;
 
 .content-card{
 
-width: 360px;
-height: 420px;
-left: 156px;
-top: 288px;
 
-/* CLOUD */
 
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -482,6 +438,6 @@ color: #2E2F42;
 /*--------------FOOTER-PORTFOLIO------------*/
 
 .footer-portfolio{
-    margin-top: -350px;
+   
 
 }
